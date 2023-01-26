@@ -40,10 +40,10 @@ function MainPage() {
                   <div className="product-contents">
                     <span className="product-name">{product.name}</span>
                     <span className="product-price">{product.price}원</span>
-                  </div>
-                  <div className="product-seller">
-                    <img className="product-avatar" src="images/icons/avatar.png" />
-                    <span>{product.seller}</span>
+                    <div className="product-seller">
+                      <img className="product-avatar" src="images/icons/avatar.png" />
+                      <span>{product.seller}</span>
+                    </div>
                   </div>
                 </Link>
               </div>
