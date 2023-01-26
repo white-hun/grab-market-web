@@ -10,7 +10,7 @@ function App() {
         <Route exact={true} path={"/"}>
           <MainPageComponent /> {/* 위에 path 경로로 들어갔을때 이 페이지를 보여주겠다 */}
         </Route>
-        <Route exact={true} path="/product">
+        <Route exact={true} path="/product/:id">
           <ProductPage />
         </Route>
         <Route exact={true} path="/upload">
