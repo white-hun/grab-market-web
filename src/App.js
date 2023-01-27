@@ -6,6 +6,12 @@ import ProductPage from "./products";
 function App() {
   return (
     <div>
+      <div id="header">
+        <div id="header-area">
+          <img src="images/icons/logo.png" />
+        </div>
+      </div>
+      <div id="body"></div>
       <Switch>
         <Route exact={true} path={"/"}>
           <MainPageComponent /> {/* 위에 path 경로로 들어갔을때 이 페이지를 보여주겠다 */}
