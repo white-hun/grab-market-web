@@ -33,9 +33,9 @@ body,
 
 #body {
   width: 1024px;
-  height: 100vh;
   margin: 0 auto;
   padding-bottom: 24px;
+  /* height: 100vh; */
 }
 
 #footer {

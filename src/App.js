@@ -1,3 +1,6 @@
+// 실제로 화면에 보이는 JS파일
+// 위의 이유는 src/index.js 에서 시작 하는데 ReactDOM.render()로 App component를 불러오기 때문
+
 import "./App.css";
 import MainPageComponent from "./main/index.js"; //index.js는 생략해도 React에서 알아서 main의 index.js를 찾는다
 import { Switch, Route, Link, useHistory } from "react-router-dom";
