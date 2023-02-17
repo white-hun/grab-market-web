@@ -15,7 +15,7 @@ function App() {
       <div id="header">
         <div id="header-area">
           <Link to="/">
-            <img src="/images/icons/logo.png" />
+            <img src="/images/icons/plasma.png" />
           </Link>
           <Button
             size="large"

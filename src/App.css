@@ -27,7 +27,8 @@ body,
 }
 
 #header-area img {
-  width: 128px;
+  margin-top: 10px;
+  width: 175px;
   height: 36px;
 }
 
