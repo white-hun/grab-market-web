@@ -8,9 +8,9 @@ function ProductPage() {
   const [product, setProduct] = useState(null);
   useEffect(function () {
     axios
-      .get(`https://e00f3d28-e973-41db-aee4-d8896d217869.mock.pstmn.io/products/${id}`)
+      .get(`http://localhost:8090/products/${id}`)
       .then(function (result) {
-        setProduct(result.data);
+        setProduct(result.data.product);
       })
       .catch(function (error) {
         console.error(error);
