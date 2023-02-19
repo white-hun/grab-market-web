@@ -10,6 +10,7 @@ function ProductPage() {
     axios
       .get(`http://localhost:8090/products/${id}`)
       .then(function (result) {
+        // product 객체의 product key 까지 접근을 해줘야한다(server.js:100)
         setProduct(result.data.product);
       })
       .catch(function (error) {
