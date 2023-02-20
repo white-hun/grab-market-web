@@ -87,7 +87,7 @@ function UploadPage() {
         <Form.Item
           name="price"
           label={<div className="upload-label">상품 가격</div>}
-          rules={[{ required: true, message: "상품 가격을 입력햐주세요." }]}
+          rules={[{ required: true, message: "상품 가격을 입력해주세요." }]}
         >
           <InputNumber defaultValue={0} className="upload-price" size="large" />
         </Form.Item>
