@@ -25,7 +25,10 @@
 }
 .upload-label {
   font-size: 18px;
+  font-weight: 600;
   width: 80px;
+  display: flex;
+  justify-content: start;
 }
 
 #product-description {
