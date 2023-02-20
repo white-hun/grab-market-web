@@ -40,3 +40,9 @@
   background-color: dodgerblue;
   border: none;
 }
+#upload-img {
+  width: 200px;
+  height: 200px;
+  margin: 16px;
+  object-fit: contain;
+}
