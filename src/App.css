@@ -33,13 +33,31 @@ body,
 }
 
 #body {
-  width: 1024px;
+  min-height: 100vh;
+  max-width: 1024px;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 24px;
-  height: 100vh;
 }
 
 #footer {
   height: 200px;
   background-color: rgb(230, 230, 230);
+}
+
+/* 최대너비 400px까지 이하의 CSS 적용하겠다 */
+@media screen and (max-width: 400px) {
+  .product-card {
+    /* 마지막에 호출된 css가 기준 */
+    width: 160px !important;
+  }
+  #header {
+    padding: 0 8px;
+  }
+  #body {
+    padding: 0 8px;
+  }
+  .ant-carousel {
+    margin: 0 -8px;
+  }
 }
